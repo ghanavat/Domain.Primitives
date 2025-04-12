@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Company>Ghanavas - https://ghanavats.co.uk</Company>
+        <Authors>Saeed Ghanavat</Authors>
+        <Description>Provides fundamental building blocks for Domain-Driven Design (DDD), 
+            including support for entities, 
+            value objects, aggregate root tagging via attributes, 
+            and domain event infrastructure.
+        </Description>
+
+        <PackageId>Ghanavats.Repository.Abstractions</PackageId>
+        <Title>Ghanavats.Repository.Abstractions</Title>
+        <PackageTags>DDD;Domain-Driven Design;Entity;ValueObject;
+            AggregateRoot;DomainEvents;Clean Architecture;Primitives
+        </PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/ghanavat/Domain.Primitives</RepositoryUrl>
+        <Version>1.0.0</Version>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions"/>
+        
+        <None Include="docs\README.md" Pack="True" PackagePath=""/>
+        <None Include="LICENSE" Pack="True" PackagePath=""/>
+    </ItemGroup>
+</Project>
