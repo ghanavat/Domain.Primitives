@@ -26,4 +26,5 @@ jobs:
     - name: Build
       run: dotnet build Ghanavats.Domain.Primitives.sln --configuration Release
     - name: Test
-      run: dotnet test --no-build --verbosity detailed
+      run: dotnet test tests/Ghanavats.Domain.Primitives.Tests/Ghanavats.Domain.Primitives.Tests.csproj
+      # run: dotnet test --no-build --verbosity detailed
