@@ -3,6 +3,7 @@ using Ghanavats.Domain.Primitives.Tests.DomainNotificationTestHelpers;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using Moq;
+using Xunit;
 
 namespace Ghanavats.Domain.Primitives.Tests.DomainEventMechanismTests;
 

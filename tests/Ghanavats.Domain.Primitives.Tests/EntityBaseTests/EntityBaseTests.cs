@@ -1,4 +1,5 @@
 using Ghanavats.Domain.Primitives.Tests.DomainNotificationTestHelpers;
+using Xunit;
 
 namespace Ghanavats.Domain.Primitives.Tests.EntityBaseTests;
 
