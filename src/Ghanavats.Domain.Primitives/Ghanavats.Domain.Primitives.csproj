@@ -9,8 +9,8 @@
             and domain event infrastructure.
         </Description>
 
-        <PackageId>Ghanavats.Repository.Abstractions</PackageId>
-        <Title>Ghanavats.Repository.Abstractions</Title>
+        <PackageId>Ghanavats.Domain.Primitives</PackageId>
+        <Title>Ghanavats.Domain.Primitives</Title>
         <PackageTags>DDD;Domain-Driven Design;Entity;ValueObject;
             AggregateRoot;DomainEvents;Clean Architecture;Primitives
         </PackageTags>
