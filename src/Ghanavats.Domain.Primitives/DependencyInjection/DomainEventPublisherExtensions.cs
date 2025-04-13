@@ -1,9 +1,9 @@
 using Ghanavats.Domain.Primitives.DomainEventMechanism;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ghanavats.Domain.Primitives.Extensions;
+namespace Ghanavats.Domain.Primitives.DependencyInjection;
 
-public static class ServiceRegistration
+public static class DomainEventPublisherExtensions
 {
     public static IServiceCollection AddDomainEventPublisher(this IServiceCollection services)
     {

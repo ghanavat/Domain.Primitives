@@ -1,7 +1,5 @@
 # Ghanavats.Domain.Primitives
 
-A lightweight, opinionated foundation for building rich domain models in Domain-Driven Design (DDD).
-
 ## Overview
 This package provides essential building blocks for creating expressive and consistent domain layers, 
 including support for Value Objects, Entities, Aggregate Root tagging, and domain event dispatching.
