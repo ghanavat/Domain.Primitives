@@ -6,7 +6,7 @@ namespace Ghanavats.Domain.Primitives.Attributes;
 /// Aggregate Root attribute. Use this to tag/mark your root entities when you want to apply constraints.
 /// </summary>
 [ExcludeFromCodeCoverage]
-[AttributeUsage(AttributeTargets.Class)]
+[AttributeUsage(AttributeTargets.Class, Inherited = false)]
 public class AggregateRootAttribute : Attribute
 {
     public string? EntityName { get; private set; }
